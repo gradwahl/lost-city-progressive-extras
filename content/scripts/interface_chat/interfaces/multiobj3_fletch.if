@@ -6,12 +6,26 @@ width=57
 height=13
 graphic=sworddecor,1
 
+[com_9]
+type=text
+x=56
+y=13
+buttontype=normal
+option=Make-X
+width=64
+height=64
+center=yes
+font=p12
+shadowed=yes
+text=
+colour=0xFFFF00
+
 [com_1]
 type=model
 x=56
 y=13
 buttontype=normal
-option=Make 1
+option=Make
 width=64
 height=64
 zoom=100
@@ -87,17 +101,4 @@ height=14
 font=p12
 shadowed=yes
 text=Close window
-colour=0xFFFF00
-
-[com_9]
-type=text
-x=12
-y=96
-buttontype=normal
-width=152
-height=14
-center=yes
-font=p12
-shadowed=yes
-text=Make-X
 colour=0xFFFF00

@@ -67,8 +67,12 @@ if (stat(fletching) < $level) {
 if ($product = arrow_shaft) {
     if ($quantity < 0) {
         p_countdialog;
-        if (last_int <= 0) return;
+        if (last_int <= 0) {
+            if_close;
+            return;
+        }
         $quantity = last_int;
+        if_close;
     }
     ~cut_logs_shafts($log, $shaft_count, $quantity);
     return;

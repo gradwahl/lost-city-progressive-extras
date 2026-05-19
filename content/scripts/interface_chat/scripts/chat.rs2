@@ -696,7 +696,7 @@ p_pausebutton;
 
 switch_component (last_com) {
     case multiobj3_fletch:com_1 : if_close; return($obj1, 1);
-    case multiobj3_fletch:com_9 : if_close; return($obj1, -1);
+    case multiobj3_fletch:com_9 : return($obj1, -1);
     case multiobj3_fletch:com_2 : if_close; return($obj2, 1);
     case multiobj3_fletch:com_3 : if_close; return($obj3, 1);
     case default :
